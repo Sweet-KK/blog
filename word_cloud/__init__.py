@@ -1,4 +1,5 @@
 from wordcloud import WordCloud
+import re
 
 
 class WordCloudGenerator(object):
@@ -17,7 +18,7 @@ class WordCloudGenerator(object):
 
         for label in labels:
             issues_in_label = self._repo.get_issues(labels=(label,))
-            frequencies[label.name] = issues_in_label.totalCount
+            frequencies[re.sub(r'^:(.+):\s+', '', label.name)] = issues_in_label.totalCount
 
         print(frequencies)
         # generate wordcount image to local dir
