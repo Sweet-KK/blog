@@ -87,7 +87,7 @@ def bundle_summary_section():
 def bundle_pinned_issues_section():
     global blog
 
-    pinned_label = blog.get_label(':+1:置顶')
+    pinned_label = blog.get_label(':+1: 置顶')
     pinned_issues = blog.get_issues(labels=(pinned_label,))
 
     pinned_issues_section = '\n## 置顶 :thumbsup: \n'
@@ -189,7 +189,7 @@ def bundle_list_by_labels_section():
 
 def bundle_cover_image_section() -> str:
     global blog
-    cover_label = blog.get_label(':framed_picture:封面')
+    cover_label = blog.get_label(':framed_picture: 封面')
     if cover_label is None:
         return ''
     cover_issues = blog.get_issues(labels=(cover_label,))
