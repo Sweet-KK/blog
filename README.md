@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:41:18"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:44:09"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -20,6 +20,23 @@
 ## 置顶 :thumbsup: 
 - [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:43:39
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+date: 2018-12-19
+
+由于公司电脑实在太水了，打开个项目，代码越多越卡顿，找运维加内存就一直拖，唉~ 只能自己花时间去优化项目，减少代码，并且寻找钻研提高webpack构建速度的方法（初始无优化构建时间140+秒，优化后构建50+秒，最快22+秒）。
+
+
+
+### 一、vu
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/10)
+
+---
+
 
 #### [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:40:46
 
@@ -629,21 +646,6 @@ mysql> show databases;
 ---
 
 
-#### [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:27:10
-
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-date: 2018-03-13
-
-阅前必看：本文总结了各种常见的布局实现，网上搜的“史上最全布局”好像也没有这么全吧？哈哈！就当作一个知识整理吧。各位读者如果发现问题或者有什么意见，欢迎提出！——欢迎关注！欢迎Star！
-
-[链接](https://github.com/Sweet-KK/
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/5)
-
----
-
-
 ## 分类  :card_file_box: 
 
 <details open="open">
@@ -691,8 +693,9 @@ date: 2018-03-13
 </details>
 
 <details>
-<summary>前端	<sup>6:newspaper:</sup></summary>
+<summary>前端	<sup>7:newspaper:</sup></summary>
 
+- [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9)  <sup>0 :speech_balloon:</sup>  	 
 - [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8)  <sup>0 :speech_balloon:</sup>  	 
 - [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7)  <sup>0 :speech_balloon:</sup>  	 
