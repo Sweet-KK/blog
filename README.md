@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:54:29"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:57:58"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -20,6 +20,50 @@
 ## 置顶 :thumbsup: 
 - [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [python系列-Linux安装python3](https://github.com/Sweet-KK/blog/issues/13) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:57:29
+
+:label: : [python](https://github.com/Sweet-KK/blog/labels/python)
+
+date: 2019-12-25
+
+
+带你如何在Linux环境中一步步安装python3~
+
+
+## 前言
+
+Linux 有不同的发行版本，而我们在企业中一般使用的是 CentOS ，目前比较常用的版本已经到了 7.x 。
+
+由于 Linux 是开源的，所以不同厂商之间提供的发行版会有非常多，比较常见的有 Ubuntu（ 基于Debian的桌面版 ） 、Debian（ 国际化组织的开源操作系统 ） 、 RedHat（ 红帽企业系统 ） 、 Fedora（ 最初由红帽公司发起的桌面版系统套件 ） 等等。
+
+因为在企业中使用比较多的还是 CentOS ，所以我们还是拿 CentOS 来介绍。
+
+在 win 系统下的安装可以使用第三方厂商提供的 VMware 或者 win 自带的 Hyper-V 构建一个虚拟机进行安装，也可以使用云服务厂商提供的云服务器，一般新用户会有一个较大折扣的优惠。
+
+安装过程自行百度，我就不废话了。
+
+安装完成后，设置好 Linux root 用户的密码后，可以使用 ssh 工具进行连接，本文以工具 xshell为例 ，打开 xshell 输入 ip 、用户名（root）、密码后，应该可以看到如下界面：
+
+![image.png](https://upload-images.jianshu.io/upload_images/8192053-9f586372ab3e6d2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+首先介绍一下Linux的目录，因为是使用 root 账号登录的，所以我们登录后的目录是在 `/root` ，查询当前所在目录可以使用命令 `pwd` ，如下： 
+
+![image.png](https://upload-images.jianshu.io/upload_images/8192053-371e7d865b9b007d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+输入命令 `cd /` ，进入根目录，再输出命令 `ls` ，查看根目录下都有什么目录： 
+
+![image.png](https://upload-images.jianshu.io/upload_images/8192053-0c33ff853adeb723.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 目录简介
+
+| /bin  | 常用命令一般在这个目录。                                     |
+| 
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/13)
+
+---
+
 
 #### [nginx中proxy-pass的url后面加与不加斜杠的区别](https://github.com/Sweet-KK/blog/issues/12) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:53:57
 
@@ -87,24 +131,6 @@ date: 2018-08-17
 ---
 
 
-#### [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:36:56
-
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-date: 2018-03-04
-
-对于Web开发者来说，网页布局一直是个比较重要的问题。但实际上，在网页开发很长的一段时间当中，我们甚至没有一个比较完整的布局模块。总的来说 Web 布局经历了四个阶段......
-
-
-#### 一、前言
-
-> 原文链接：[blog.catwen.cn
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/8)
-
----
-
-
 ## 分类  :card_file_box: 
 
 <details open="open">
@@ -146,8 +172,9 @@ date: 2018-03-04
 </details>
 
 <details>
-<summary>python	<sup>0:newspaper:</sup></summary>
+<summary>python	<sup>1:newspaper:</sup></summary>
 
+- [python系列-Linux安装python3](https://github.com/Sweet-KK/blog/issues/13)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
