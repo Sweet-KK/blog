@@ -1,9 +1,9 @@
 
 
 <p align='center'>
-    <img src="https://badgen.net/badge/labels/3"/>
+    <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-01 03:27:35"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:04:36"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -37,7 +37,7 @@
 
 :label: : [:framed_picture: 封面](https://github.com/Sweet-KK/blog/labels/%3Aframed_picture%3A%20%E5%B0%81%E9%9D%A2)
 
-![computer](https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+![Snipaste_2021-06-06_15-47-53](https://user-images.githubusercontent.com/29600932/120917199-69817d80-c6e0-11eb-9b35-fac3797d714f.png)
 
 
 [更多>>>](https://github.com/Sweet-KK/blog/issues/1)
@@ -71,7 +71,42 @@
 </details>
 
 <details>
+<summary>java	<sup>0:newspaper:</sup></summary>
+
+
+
+</details>
+
+<details>
+<summary>node	<sup>0:newspaper:</sup></summary>
+
+
+
+</details>
+
+<details>
+<summary>python	<sup>0:newspaper:</sup></summary>
+
+
+
+</details>
+
+<details>
+<summary>前端	<sup>0:newspaper:</sup></summary>
+
+
+
+</details>
+
+<details>
 <summary>开源	<sup>0:newspaper:</sup></summary>
+
+
+
+</details>
+
+<details>
+<summary>服务器、运维	<sup>0:newspaper:</sup></summary>
 
 
 
