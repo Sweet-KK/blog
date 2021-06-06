@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:21:09"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:27:41"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -20,6 +20,21 @@
 ## 置顶 :thumbsup: 
 - [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:27:10
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+date: 2018-03-13
+
+阅前必看：本文总结了各种常见的布局实现，网上搜的“史上最全布局”好像也没有这么全吧？哈哈！就当作一个知识整理吧。各位读者如果发现问题或者有什么意见，欢迎提出！——欢迎关注！欢迎Star！
+
+[链接](https://github.com/Sweet-KK/
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/5)
+
+---
+
 
 #### [CSS预处理器--Less语法整理](https://github.com/Sweet-KK/blog/issues/4) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:20:36
 
@@ -127,8 +142,9 @@ date: 2017-08-13
 </details>
 
 <details>
-<summary>前端	<sup>2:newspaper:</sup></summary>
+<summary>前端	<sup>3:newspaper:</sup></summary>
 
+- [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5)  <sup>0 :speech_balloon:</sup>  	 
 - [CSS预处理器--Less语法整理](https://github.com/Sweet-KK/blog/issues/4)  <sup>0 :speech_balloon:</sup>  	 
 - [对constructor和prototype的理解](https://github.com/Sweet-KK/blog/issues/3)  <sup>0 :speech_balloon:</sup>  	 
 
