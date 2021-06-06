@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:37:29"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:41:18"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -20,6 +20,20 @@
 ## 置顶 :thumbsup: 
 - [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:40:46
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+date: 2018-08-17
+
+
+之前用vue-cli写过项目，但是隔了一段时间再次接触的时候，发现很多都忘了，翻了一下自己笔记，写的都是无关紧要的东西，完完全全可以在官方文档查到。这次开发遇到了很多问题，记忆中有些许印象，但就是想不起来，搜索、解决问题的时间就占去了很多，为了方便以后开发
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/9)
+
+---
+
 
 #### [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:36:56
 
@@ -630,28 +644,6 @@ date: 2018-03-13
 ---
 
 
-#### [CSS预处理器--Less语法整理](https://github.com/Sweet-KK/blog/issues/4) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:20:36
-
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-date: 2017-09-30
-
-这是本人整理的Less语法,基本上全了，至于进阶就是看你怎么组合怎么使用了。本文整理的内容都亲测有效！
-
-
-## 一,变量
-#### 基本使用
-**Less:**
-```
-.@{selector} {
-    width: 100px;
-  
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/4)
-
----
-
-
 ## 分类  :card_file_box: 
 
 <details open="open">
@@ -699,8 +691,9 @@ date: 2017-09-30
 </details>
 
 <details>
-<summary>前端	<sup>5:newspaper:</sup></summary>
+<summary>前端	<sup>6:newspaper:</sup></summary>
 
+- [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9)  <sup>0 :speech_balloon:</sup>  	 
 - [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8)  <sup>0 :speech_balloon:</sup>  	 
 - [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7)  <sup>0 :speech_balloon:</sup>  	 
 - [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5)  <sup>0 :speech_balloon:</sup>  	 
