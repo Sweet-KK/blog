@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:30:36"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:35:30"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -20,6 +20,157 @@
 ## 置顶 :thumbsup: 
 - [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:35:00
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+date: 2018-05-19
+
+
+最近做的一些页面，纯粹使用jq这种，没有一些组件复用的功能，又需要经常修改，例如页面顶部和底部这些区域，相同的代码，却需要一个个页面打开去修改a标签的跳转、文件的引用路径等等，页面层级不一样还要注意是../还是./。一旦改错了，就等于做了无用功，回头还要一个个去检查。这样耗费的时间和精力实在是太多了。因此就有了本文的思考，很幸运目前已有gulp-file-include这样的插件去实现html的复用，减少我们的修改维护成本。以下就是介绍本实践项目的目录结构与gulp-file-include的使用
+
+
+
+### 目录结构
+
+![image.png](https://upload-images.jianshu.io/upload_images/8192053-6c064e4b9406b820.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+### RUN DEMO
+
+```
+# 1.进入项目根目录
+
+# 2.安装依赖
+npm install
+
+# 运行服务编译文件
+gulp  
+编译完成浏览器自动打开入口链接页面
+```
+
+
+
+### gulpfile.js
+
+```
+var gulp = require('gulp');
+var browserSync = require('browser-sync');
+var reload = browserSync.reload;
+var fileinclude = require('gulp-file-include');
+var imagemin = require('gulp-imagemin');
+var less = require('gulp-less');
+var autoprefixer = require('gulp-autoprefixer');
+
+var browserArr = ['last 2 versions', 'ie 9'];
+
+var app = {  // 定义目录
+  srcPath: './src/',
+  // buildPath:'./build/',
+  distPath: './dist/'
+}
+
+// 处理公用html
+gulp.task('fileinclude', function () {
+  return gulp.src([app.srcPath + 'html/**/*.html'])
+    .pipe(fileinclude({
+      prefix: '@@',  // 自定义标识前缀
+      basepath: app.srcPath + 'html/components'  // 复用组件目录
+    }))
+    .pipe(gulp.dest(app.distPath + 'html'));
+});
+
+// 处理完lib文件后返回流
+gulp.task('lib', function () {
+  return gulp.src(app.srcPath + 'lib/**/*')
+    .pipe(gulp.dest(app.distPath + 'lib'));
+});
+
+// 处理完JS文件后返回流
+gulp.task('js', function () {
+  return gulp.src(app.srcPath + 'js/**/*.js')
+    .pipe(gulp.dest(app.distPath + 'js'));
+});
+// 处理less文件后返回流
+gulp.task('less', function () {
+  return gulp.src(app.srcPath + 'less/**/*.less')
+    .pipe(less())
+    .pipe(autoprefixer({
+      browsers: browserArr,
+      cascade: true, //是否美化属性值 默认：true 像这样：
+      //-webkit-transform: rotate(45deg);
+      //        transform: rotate(45deg);
+    }))
+    .pipe(gulp.dest(app.distPath + 'css'))
+    .pipe(reload({stream: true}));
+});
+// 处理完CSS文件后返回流
+gulp.task('css', function () {
+  return gulp.src(app.srcPath + 'css/**/*.css')
+    .pipe(autoprefixer({
+      browsers: browserArr,
+      cascade: true, //是否美化属性值 默认：true
+    }))
+    .pipe(gulp.dest(app.distPath + 'css'))
+    .pipe(reload({stream: true}));
+});
+
+/*处理图片*/
+gulp.task('image', function () {
+  return gulp.src(app.srcPath + 'images/**/*')
+    //.pipe(imagemin())
+    .pipe(gulp.dest(app.distPath + 'images'))
+});
+
+
+// 创建一个任务确保JS任务完成之前能够继续响应
+// 浏览器重载
+gulp.task('lib-watch', ['lib'], reload);
+gulp.task('js-watch', ['js'], reload);
+gulp.task('img-watch', ['image'], reload);
+gulp.task('html-watch', ['fileinclude'], reload);
+
+//静态服务器+监听
+gulp.task('server', ['js', 'css', 'image', 'lib', 'less'], function () {
+  gulp.start('fileinclude');
+  browserSync.init({
+    port: 80,
+    server: {
+      baseDir: './',
+    }
+  });
+
+  // 无刷新方式更新
+  gulp.watch(app.srcPath + 'less/**/*.less', ['less']);
+  gulp.watch(app.srcPath + 'css/**/*.css', ['css']);
+
+  // 添加 browserSync.reload 到任务队列里
+  // 所有的浏览器重载后任务完成。
+  // 刷新页面方式
+  gulp.watch(app.srcPath + 'lib/**/*', ['lib-watch']);
+  gulp.watch(app.srcPath + 'js/**/*.js', ['js-watch']);
+  gulp.watch(app.srcPath + 'images/**/*', ['img-watch']);
+  gulp.watch(app.srcPath + 'html/**/*.html', ['html-watch']);
+  // gulp.watch(app.distPath + 'html/**/*.html').on('change', reload)
+})
+
+
+/*默认任务*/
+gulp.task('default', ['server']);
+```
+
+
+
+### 编写html页面示例
+
+#### 1.导入复用组件
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/7)
+
+---
+
 
 #### [CentOS 7.4 从0到1部署node项目](https://github.com/Sweet-KK/blog/issues/6) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:30:07
 
@@ -496,18 +647,6 @@ date: 2017-08-13
 ---
 
 
-#### [迁移ing](https://github.com/Sweet-KK/blog/issues/2) <sup>0 :speech_balloon:</sup> 	 2021-06-01 03:05:45
-
-:label: : [:+1: 置顶](https://github.com/Sweet-KK/blog/labels/%3A%2B1%3A%20%E7%BD%AE%E9%A1%B6)
-
-迁移ing
-
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/2)
-
----
-
-
 ## 分类  :card_file_box: 
 
 <details open="open">
@@ -555,8 +694,9 @@ date: 2017-08-13
 </details>
 
 <details>
-<summary>前端	<sup>3:newspaper:</sup></summary>
+<summary>前端	<sup>4:newspaper:</sup></summary>
 
+- [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7)  <sup>0 :speech_balloon:</sup>  	 
 - [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5)  <sup>0 :speech_balloon:</sup>  	 
 - [CSS预处理器--Less语法整理](https://github.com/Sweet-KK/blog/issues/4)  <sup>0 :speech_balloon:</sup>  	 
 - [对constructor和prototype的理解](https://github.com/Sweet-KK/blog/issues/3)  <sup>0 :speech_balloon:</sup>  	 
