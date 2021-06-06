@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:57:58"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 09:06:57"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -80,53 +80,6 @@ date: 2018-09-02
 转载，摘自于<http://w
 
 [更多>>>](https://github.com/Sweet-KK/blog/issues/12)
-
----
-
-
-#### [使用node发送验证码到手机或邮箱做校验](https://github.com/Sweet-KK/blog/issues/11) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:45:52
-
-:label: : [node](https://github.com/Sweet-KK/blog/labels/node)
-
-date: 2018-08-27
-
-
-最近做的一个node项目，有个密码找回的功能，需要用到短信验证，后来又因为某种原因，要改成邮箱发送信息~类似这种验证码的需求想必是很常见的，只要有用户注册、密码修改找回功能的基本上都会用到，今天就介绍一下发送短信和发送邮件验证的基本步骤。
-
-### 短
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/11)
-
----
-
-
-#### [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:43:39
-
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-date: 2018-12-19
-
-由于公司电脑实在太水了，打开个项目，代码越多越卡顿，找运维加内存就一直拖，唉~ 只能自己花时间去优化项目，减少代码，并且寻找钻研提高webpack构建速度的方法（初始无优化构建时间140+秒，优化后构建50+秒，最快22+秒）。
-
-
-
-### 一、vu
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/10)
-
----
-
-
-#### [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:40:46
-
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-date: 2018-08-17
-
-
-之前用vue-cli写过项目，但是隔了一段时间再次接触的时候，发现很多都忘了，翻了一下自己笔记，写的都是无关紧要的东西，完完全全可以在官方文档查到。这次开发遇到了很多问题，记忆中有些许印象，但就是想不起来，搜索、解决问题的时间就占去了很多，为了方便以后开发
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/9)
 
 ---
 
