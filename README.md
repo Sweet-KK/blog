@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:46:25"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-06 08:47:23"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -23,7 +23,7 @@
 
 #### [使用node发送验证码到手机或邮箱做校验](https://github.com/Sweet-KK/blog/issues/11) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:45:52
 
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+:label: : [node](https://github.com/Sweet-KK/blog/labels/node)
 
 date: 2018-08-27
 
@@ -86,7 +86,7 @@ date: 2018-03-04
 ---
 
 
-#### [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:35:00
+#### [静态页面HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:35:00
 
 :label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
 
@@ -270,8 +270,9 @@ gulp.task('default', ['server']);
 </details>
 
 <details>
-<summary>node	<sup>0:newspaper:</sup></summary>
+<summary>node	<sup>1:newspaper:</sup></summary>
 
+- [使用node发送验证码到手机或邮箱做校验](https://github.com/Sweet-KK/blog/issues/11)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
@@ -284,13 +285,12 @@ gulp.task('default', ['server']);
 </details>
 
 <details>
-<summary>前端	<sup>8:newspaper:</sup></summary>
+<summary>前端	<sup>7:newspaper:</sup></summary>
 
-- [使用node发送验证码到手机或邮箱做校验](https://github.com/Sweet-KK/blog/issues/11)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9)  <sup>0 :speech_balloon:</sup>  	 
 - [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8)  <sup>0 :speech_balloon:</sup>  	 
-- [HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7)  <sup>0 :speech_balloon:</sup>  	 
+- [静态页面HTML代码的复用实践](https://github.com/Sweet-KK/blog/issues/7)  <sup>0 :speech_balloon:</sup>  	 
 - [干货!各种常见布局+知名网站实例分析+相关阅读推荐](https://github.com/Sweet-KK/blog/issues/5)  <sup>0 :speech_balloon:</sup>  	 
 - [CSS预处理器--Less语法整理](https://github.com/Sweet-KK/blog/issues/4)  <sup>0 :speech_balloon:</sup>  	 
 - [对constructor和prototype的理解](https://github.com/Sweet-KK/blog/issues/3)  <sup>0 :speech_balloon:</sup>  	 
