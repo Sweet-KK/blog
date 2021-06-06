@@ -131,7 +131,7 @@ def format_issue_with_labels(issue: Issue):
 def bundle_new_created_section():
     global blog
 
-    new_5_created_issues = blog.get_issues()[:5]
+    new_5_created_issues = blog.get_issues()[:2]
 
     new_created_section = '## 最新 :new: \n'
 
