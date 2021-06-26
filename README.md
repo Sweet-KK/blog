@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-06 09:06:57"/>
+    <img src="https://badgen.net/badge/last-commit/2021-06-26 13:19:21"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -18,7 +18,6 @@
 
 
 ## 置顶 :thumbsup: 
-- [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
 
 #### [python系列-Linux安装python3](https://github.com/Sweet-KK/blog/issues/13) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:57:29
@@ -94,9 +93,8 @@ date: 2018-09-02
 
 
 <details>
-<summary>:+1: 置顶	<sup>1:newspaper:</sup></summary>
+<summary>:+1: 置顶	<sup>0:newspaper:</sup></summary>
 
-- [迁移ing](https://github.com/Sweet-KK/blog/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
