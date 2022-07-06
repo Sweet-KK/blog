@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2022-07-06 02:45:35"/>
+    <img src="https://badgen.net/badge/last-commit/2022-07-06 03:00:13"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -18,11 +18,24 @@
 
 
 ## 置顶 :thumbsup: 
+- [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+
+#### [Web安全攻防](https://github.com/Sweet-KK/blog/issues/15) <sup>0 :speech_balloon:</sup> 	 2022-07-06 02:59:45
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+### XSS攻击
+跨站脚本攻击（Cross-site scripting，XSS）是一种安全漏洞，攻击者可以利用这种漏洞在网站上注入恶意的客户端代码。恶意内容一般包括 JavaScript，但是，有时候也会包括 HTML，FLASH 或是其他浏览器可执行的代码。XSS 攻击的形式千差万别，但他们
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/15)
+
+---
+
 
 #### [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14) <sup>0 :speech_balloon:</sup> 	 2022-07-06 02:45:05
 
-:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+:label: : [:+1: 置顶](https://github.com/Sweet-KK/blog/labels/%3A%2B1%3A%20%E7%BD%AE%E9%A1%B6), [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
 
 ## 动画性能分析
 ### 一、开启性能检测工具
@@ -30,50 +43,6 @@
 ![image](https://user-images.github
 
 [更多>>>](https://github.com/Sweet-KK/blog/issues/14)
-
----
-
-
-#### [python系列-Linux安装python3](https://github.com/Sweet-KK/blog/issues/13) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:57:29
-
-:label: : [python](https://github.com/Sweet-KK/blog/labels/python)
-
-date: 2019-12-25
-
-
-带你如何在Linux环境中一步步安装python3~
-
-
-## 前言
-
-Linux 有不同的发行版本，而我们在企业中一般使用的是 CentOS ，目前比较常用的版本已经到了 7.x 。
-
-由于 Linux 是开源的，所以不同厂商之间提供的发行版会有非常多，比较常见的有 Ubuntu（ 基于Debian的桌面版 ） 、Debian（ 国际化组织的开源操作系统 ） 、 RedHat（ 红帽企业系统 ） 、 Fedora（ 最初由红帽公司发起的桌面版系统套件 ） 等等。
-
-因为在企业中使用比较多的还是 CentOS ，所以我们还是拿 CentOS 来介绍。
-
-在 win 系统下的安装可以使用第三方厂商提供的 VMware 或者 win 自带的 Hyper-V 构建一个虚拟机进行安装，也可以使用云服务厂商提供的云服务器，一般新用户会有一个较大折扣的优惠。
-
-安装过程自行百度，我就不废话了。
-
-安装完成后，设置好 Linux root 用户的密码后，可以使用 ssh 工具进行连接，本文以工具 xshell为例 ，打开 xshell 输入 ip 、用户名（root）、密码后，应该可以看到如下界面：
-
-![image.png](https://upload-images.jianshu.io/upload_images/8192053-9f586372ab3e6d2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-首先介绍一下Linux的目录，因为是使用 root 账号登录的，所以我们登录后的目录是在 `/root` ，查询当前所在目录可以使用命令 `pwd` ，如下： 
-
-![image.png](https://upload-images.jianshu.io/upload_images/8192053-371e7d865b9b007d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-输入命令 `cd /` ，进入根目录，再输出命令 `ls` ，查看根目录下都有什么目录： 
-
-![image.png](https://upload-images.jianshu.io/upload_images/8192053-0c33ff853adeb723.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-### 目录简介
-
-| /bin  | 常用命令一般在这个目录。                                     |
-| 
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/13)
 
 ---
 
@@ -88,8 +57,9 @@ Linux 有不同的发行版本，而我们在企业中一般使用的是 CentOS 
 
 
 <details>
-<summary>:+1: 置顶	<sup>0:newspaper:</sup></summary>
+<summary>:+1: 置顶	<sup>1:newspaper:</sup></summary>
 
+- [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
@@ -126,8 +96,9 @@ Linux 有不同的发行版本，而我们在企业中一般使用的是 CentOS 
 </details>
 
 <details>
-<summary>前端	<sup>8:newspaper:</sup></summary>
+<summary>前端	<sup>9:newspaper:</sup></summary>
 
+- [Web安全攻防](https://github.com/Sweet-KK/blog/issues/15)  <sup>0 :speech_balloon:</sup>  	 
 - [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9)  <sup>0 :speech_balloon:</sup>  	 
