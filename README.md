@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2022-07-06 03:00:13"/>
+    <img src="https://badgen.net/badge/last-commit/2022-07-06 03:02:50"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -21,6 +21,24 @@
 - [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
 
+#### [常用sql语句 & sequelize api对比](https://github.com/Sweet-KK/blog/issues/16) <sup>0 :speech_balloon:</sup> 	 2022-07-06 03:02:23
+
+:label: : [node](https://github.com/Sweet-KK/blog/labels/node)
+
+### 查询
+
+```bash
+# 查一条，返回列key1和key2
+select key1, key2 from table1 limit 1;
+# sequelize
+const data = await table1Model.findOne({
+  attributes: ['
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/16)
+
+---
+
+
 #### [Web安全攻防](https://github.com/Sweet-KK/blog/issues/15) <sup>0 :speech_balloon:</sup> 	 2022-07-06 02:59:45
 
 :label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
@@ -29,20 +47,6 @@
 跨站脚本攻击（Cross-site scripting，XSS）是一种安全漏洞，攻击者可以利用这种漏洞在网站上注入恶意的客户端代码。恶意内容一般包括 JavaScript，但是，有时候也会包括 HTML，FLASH 或是其他浏览器可执行的代码。XSS 攻击的形式千差万别，但他们
 
 [更多>>>](https://github.com/Sweet-KK/blog/issues/15)
-
----
-
-
-#### [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14) <sup>0 :speech_balloon:</sup> 	 2022-07-06 02:45:05
-
-:label: : [:+1: 置顶](https://github.com/Sweet-KK/blog/labels/%3A%2B1%3A%20%E7%BD%AE%E9%A1%B6), [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
-
-## 动画性能分析
-### 一、开启性能检测工具
-1. 首先是打开控制台的`rendering`，开启`Paint flashing`（观察重绘元素）和`Frame Rendering Status`（查看GPU使用情况）
-![image](https://user-images.github
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/14)
 
 ---
 
@@ -80,8 +84,9 @@
 </details>
 
 <details>
-<summary>node	<sup>1:newspaper:</sup></summary>
+<summary>node	<sup>2:newspaper:</sup></summary>
 
+- [常用sql语句 & sequelize api对比](https://github.com/Sweet-KK/blog/issues/16)  <sup>0 :speech_balloon:</sup>  	 
 - [使用node发送验证码到手机或邮箱做校验](https://github.com/Sweet-KK/blog/issues/11)  <sup>0 :speech_balloon:</sup>  	 
 
 
