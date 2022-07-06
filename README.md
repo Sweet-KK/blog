@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/8"/>
     <img src="https://badgen.net/github/issues/Sweet-KK/blog"/>
-    <img src="https://badgen.net/badge/last-commit/2021-06-26 13:19:21"/>
+    <img src="https://badgen.net/badge/last-commit/2022-07-06 02:45:35"/>
     <img src="https://badgen.net/github/forks/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/stars/Sweet-KK/blog"/>
     <img src="https://badgen.net/github/watchers/Sweet-KK/blog"/>
@@ -19,6 +19,20 @@
 
 ## 置顶 :thumbsup: 
 ## 最新 :new: 
+
+#### [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14) <sup>0 :speech_balloon:</sup> 	 2022-07-06 02:45:05
+
+:label: : [前端](https://github.com/Sweet-KK/blog/labels/%E5%89%8D%E7%AB%AF)
+
+## 动画性能分析
+### 一、开启性能检测工具
+1. 首先是打开控制台的`rendering`，开启`Paint flashing`（观察重绘元素）和`Frame Rendering Status`（查看GPU使用情况）
+![image](https://user-images.github
+
+[更多>>>](https://github.com/Sweet-KK/blog/issues/14)
+
+---
+
 
 #### [python系列-Linux安装python3](https://github.com/Sweet-KK/blog/issues/13) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:57:29
 
@@ -60,25 +74,6 @@ Linux 有不同的发行版本，而我们在企业中一般使用的是 CentOS 
 | 
 
 [更多>>>](https://github.com/Sweet-KK/blog/issues/13)
-
----
-
-
-#### [nginx中proxy-pass的url后面加与不加斜杠的区别](https://github.com/Sweet-KK/blog/issues/12) <sup>0 :speech_balloon:</sup> 	 2021-06-06 08:53:57
-
-:label: : [服务器、运维](https://github.com/Sweet-KK/blog/labels/%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E8%BF%90%E7%BB%B4)
-
-date: 2018-09-02
-
-
-在nginx中配置proxy_pass时，当在后面的url加上了/，相当于是绝对根路径，则nginx不会把location中匹配的路径部分代理走；如果没有/，则会把匹配的路径部分也给代理走。 
-
-
-#### 前言
-
-转载，摘自于<http://w
-
-[更多>>>](https://github.com/Sweet-KK/blog/issues/12)
 
 ---
 
@@ -131,8 +126,9 @@ date: 2018-09-02
 </details>
 
 <details>
-<summary>前端	<sup>7:newspaper:</sup></summary>
+<summary>前端	<sup>8:newspaper:</sup></summary>
 
+- [动画性能分析和实现拆解](https://github.com/Sweet-KK/blog/issues/14)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli 2.0再优化](https://github.com/Sweet-KK/blog/issues/10)  <sup>0 :speech_balloon:</sup>  	 
 - [vue-cli踩坑与优化小记](https://github.com/Sweet-KK/blog/issues/9)  <sup>0 :speech_balloon:</sup>  	 
 - [Grid VS Flexbox](https://github.com/Sweet-KK/blog/issues/8)  <sup>0 :speech_balloon:</sup>  	 
